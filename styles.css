@@ -100,6 +100,47 @@ main{
     font-weight: 700;
 }
 
+/* css for some facts :section1 */
+
+.facts-card-container{
+    display:flex;
+    justify-content: space-around;
+}
+.cards{
+    border:1px solid #FF900E;
+    border-radius: 6px;
+    text-align: center;
+    padding: 30px;
+}
+
+.facts-description{
+    
+    margin-top:5px;
+}
+.facts-stats{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* css for sponsors section */
+.sponsors-container{
+    text-align: center;
+    margin: 20px;
+
+}
+
+.sponsors-icons-container{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:40px;
+
+}
+
+.sponsors-icons-container img{
+    width:170px;
+  
+}
 
 /* css for responsive */
 
@@ -111,7 +152,9 @@ main{
     }
 
     nav,
-    .features-container
+    .features-container,
+    .facts-card-container,
+    .sponsors-icons-container
     {
         flex-direction: column;
     }
@@ -125,7 +168,11 @@ main{
         padding: 0 70px;
        
     }
-    
+
+    /*  for fact section1 responsive */
+    .facts-card-container{
+        gap:20px;
+    }
     
     
 }
@@ -137,7 +184,8 @@ main{
         padding: 50px;
     }
     nav,
-    .features-container
+    .features-container,
+    .sponsors-icons-container
     {
         flex-direction: column;
     }
