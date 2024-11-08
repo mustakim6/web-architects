@@ -1,0 +1,38 @@
+/* css for google font */
+body {
+        font-family: "Kanit", sans-serif;
+        font-weight: 400 600 700 800;
+        font-style: normal;
+      }
+
+/* css for header */
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:25px 240px;
+    background-color: rgba(255,144,14,0.10);
+
+    
+    border:2px solid saddlebrown;
+}
+
+header ul{
+    display:flex;
+    align-items: center;
+    border:2px solid firebrick;
+      
+}
+
+header ul>li{
+    margin-right: 15px;
+    list-style-type: none;
+
+    border:2px solid rgb(74, 111, 144);
+}
+
+header ul>li a{
+    text-decoration: none;
+}
+   
