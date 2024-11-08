@@ -71,10 +71,41 @@ nav ul>li a{
    
 }
 
+/* css for features section IN MAIN */
+
+main{
+    max-width: 1180px;
+    margin:0 auto;
+}
+
+.features-container{
+    display: flex;
+    align-items: center;
+    margin:30px 0;
+}
+
+.features-imgs-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1.5rem;
+    
+}
+.features-content{
+    padding: 0 70px;
+   
+}
+
+.features-color{
+    color: #faa803;
+    font-weight: 700;
+}
+
 
 /* css for responsive */
+
 /* mobile */
 @media  screen and (max-width:576px) {
+    /* for header responsive */
     header{
         padding: 20px;
     }
@@ -82,6 +113,10 @@ nav ul>li a{
     nav{
         flex-direction: column;
     }
+
+    /* for features section  responsive*/
+
+    
     
     
 }
